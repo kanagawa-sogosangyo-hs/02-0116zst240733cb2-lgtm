@@ -9,11 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        VStack{
         Image("mainCharacter1")
             .resizable()
             .scaledToFit()
         Text("Hello, swift!")
+        chara2
     }
+    
+}
 
     var chara2: some View{
         VStack {
@@ -23,6 +27,8 @@ struct ContentView: View {
             Text("Hello, swift!")
         }
     }
+}
 #Preview {
     ContentView()
 }
+
